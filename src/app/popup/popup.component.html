@@ -1,0 +1,33 @@
+<!-- <div class="popup">
+    <p>{{ message }}</p>
+    <div class="details">
+      <div class="left">
+        <p>Quantity: {{ quantity }}</p>
+        <p>Price: {{ price * quantity }} &#8377;</p>
+      </div>
+      <div class="right">
+        <button class="view-cart" (click)="activeModal.close('View Cart')">View Cart</button>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- <div class="popup">
+    <div class="toast-title">{{ message }}</div>
+    <div class="toast-message">Item: {{ quantity }}</div>
+    <div class="toast-message">Price:  ₹ {{ price * quantity }} </div>
+    <button class="view-cart" (click)="activeModal.close('View Cart')">View Cart</button>
+    <i class='bx bx-chevron-right' id="back"></i>
+  </div> -->
+
+  <div class="popup">
+    <div class="toast-title">{{ quantity }} Item | ₹{{ price * quantity }} </div>
+    <div class="toast-message">Extra charges may apply</div>
+    <button class="view-cart" (click)="activeModal.close('View Cart')">View Cart</button>
+    <i class='bx bx-chevron-right' id="back"></i>
+  </div>
+
+
+
+
+  
+  

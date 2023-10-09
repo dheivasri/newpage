@@ -1,0 +1,15 @@
+<div class="additional-array">
+    <h1>Additional Add On</h1>
+    <div class="slider">
+      <div class="arrow left-arrow" (click)="slideLeft()">&#9664;</div>
+      <div class="image-container">
+        <div class="image-slide" *ngFor="let item of additionalItems">
+          <img src="{{ item.image }}" alt="{{ item.name }}">
+          <h2>{{ item.name }}</h2>
+          <p><strong>&#8377;</strong>{{ item.price }}</p>
+        </div>
+      </div>
+      <div class="arrow right-arrow" (click)="slideRight()">&#9654;</div>
+    </div>
+  </div>
+  

@@ -1,0 +1,47 @@
+.additional-array {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .image-container {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-slide {
+    flex: 0 0 auto;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .image-slide img {
+    max-width: 60%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .arrow {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  
